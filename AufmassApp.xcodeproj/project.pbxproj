@@ -6,17 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BB0000000000000000000002 /* AufmassAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* AufmassAppApp.swift */; };
+		BB0000000000000000000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* ContentView.swift */; };
+		BB0000000000000000000004 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000004 /* Item.swift */; };
+		BB0000000000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000005 /* Assets.xcassets */; };
+		BB0000000000000000000006 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000006 /* Room.swift */; };
+		BB0000000000000000000007 /* ServiceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000007 /* ServiceItem.swift */; };
+		BB0000000000000000000008 /* QuoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000008 /* QuoteItem.swift */; };
+		BB0000000000000000000009 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000009 /* Quote.swift */; };
+		BB000000000000000000000A /* CompanyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000A /* CompanyInfo.swift */; };
+		BB000000000000000000000B /* RoomCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000B /* RoomCalculator.swift */; };
+		BB000000000000000000000C /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000C /* PDFGenerator.swift */; };
+		BB000000000000000000000D /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000D /* ScanView.swift */; };
+		BB000000000000000000000E /* ScanResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000E /* ScanResultView.swift */; };
+		BB000000000000000000000F /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000F /* QuoteView.swift */; };
+		BB0000000000000000000010 /* PDFPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000010 /* PDFPreviewView.swift */; };
+		BB0000000000000000000011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000011 /* SettingsView.swift */; };
+		BB0000000000000000000012 /* DefaultPrices.json in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000012 /* DefaultPrices.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		81D030092FD88818002092B9 /* AufmassApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AufmassApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000002 /* AufmassAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AufmassAppApp.swift; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000004 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AA0000000000000000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0000000000000000000006 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		AA0000000000000000000007 /* ServiceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceItem.swift; sourceTree = "<group>"; };
+		AA0000000000000000000008 /* QuoteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteItem.swift; sourceTree = "<group>"; };
+		AA0000000000000000000009 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		AA000000000000000000000A /* CompanyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInfo.swift; sourceTree = "<group>"; };
+		AA000000000000000000000B /* RoomCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCalculator.swift; sourceTree = "<group>"; };
+		AA000000000000000000000C /* PDFGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGenerator.swift; sourceTree = "<group>"; };
+		AA000000000000000000000D /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		AA000000000000000000000E /* ScanResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultView.swift; sourceTree = "<group>"; };
+		AA000000000000000000000F /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000010 /* PDFPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPreviewView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000012 /* DefaultPrices.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DefaultPrices.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		81D0300B2FD88818002092B9 /* AufmassApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AufmassApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		81D030062FD88818002092B9 /* Frameworks */ = {
@@ -32,7 +61,7 @@
 		81D030002FD88818002092B9 = {
 			isa = PBXGroup;
 			children = (
-				81D0300B2FD88818002092B9 /* AufmassApp */,
+				CC0000000000000000000001 /* AufmassApp */,
 				81D0300A2FD88818002092B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +72,94 @@
 				81D030092FD88818002092B9 /* AufmassApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000001 /* AufmassApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000002 /* AufmassAppApp.swift */,
+				AA0000000000000000000003 /* ContentView.swift */,
+				AA0000000000000000000004 /* Item.swift */,
+				AA0000000000000000000005 /* Assets.xcassets */,
+				CC0000000000000000000002 /* Models */,
+				CC0000000000000000000003 /* Services */,
+				CC0000000000000000000004 /* Screens */,
+				CC0000000000000000000009 /* Resources */,
+			);
+			path = AufmassApp;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000006 /* Room.swift */,
+				AA0000000000000000000007 /* ServiceItem.swift */,
+				AA0000000000000000000008 /* QuoteItem.swift */,
+				AA0000000000000000000009 /* Quote.swift */,
+				AA000000000000000000000A /* CompanyInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000003 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA000000000000000000000B /* RoomCalculator.swift */,
+				AA000000000000000000000C /* PDFGenerator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000004 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000005 /* Scan */,
+				CC0000000000000000000006 /* Quote */,
+				CC0000000000000000000007 /* PDF */,
+				CC0000000000000000000008 /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000005 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				AA000000000000000000000D /* ScanView.swift */,
+				AA000000000000000000000E /* ScanResultView.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000006 /* Quote */ = {
+			isa = PBXGroup;
+			children = (
+				AA000000000000000000000F /* QuoteView.swift */,
+			);
+			path = Quote;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000007 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000010 /* PDFPreviewView.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000008 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000011 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000012 /* DefaultPrices.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +176,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				81D0300B2FD88818002092B9 /* AufmassApp */,
 			);
 			name = AufmassApp;
 			packageProductDependencies = (
@@ -93,7 +207,6 @@
 				Base,
 			);
 			mainGroup = 81D030002FD88818002092B9;
-			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 81D0300A2FD88818002092B9 /* Products */;
 			projectDirPath = "";
@@ -109,6 +222,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0000000000000000000005 /* Assets.xcassets in Resources */,
+				BB0000000000000000000012 /* DefaultPrices.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +234,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0000000000000000000002 /* AufmassAppApp.swift in Sources */,
+				BB0000000000000000000003 /* ContentView.swift in Sources */,
+				BB0000000000000000000004 /* Item.swift in Sources */,
+				BB0000000000000000000006 /* Room.swift in Sources */,
+				BB0000000000000000000007 /* ServiceItem.swift in Sources */,
+				BB0000000000000000000008 /* QuoteItem.swift in Sources */,
+				BB0000000000000000000009 /* Quote.swift in Sources */,
+				BB000000000000000000000A /* CompanyInfo.swift in Sources */,
+				BB000000000000000000000B /* RoomCalculator.swift in Sources */,
+				BB000000000000000000000C /* PDFGenerator.swift in Sources */,
+				BB000000000000000000000D /* ScanView.swift in Sources */,
+				BB000000000000000000000E /* ScanResultView.swift in Sources */,
+				BB000000000000000000000F /* QuoteView.swift in Sources */,
+				BB0000000000000000000010 /* PDFPreviewView.swift in Sources */,
+				BB0000000000000000000011 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -234,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -251,19 +381,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N67854L36S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Die App benötigt Kamerazugriff für den LiDAR-Raumscan.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.weserwerk-software.AufmassApp";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mathiskuhlenkamp.AufmassApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -282,19 +415,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N67854L36S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Die App benötigt Kamerazugriff für den LiDAR-Raumscan.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.weserwerk-software.AufmassApp";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mathiskuhlenkamp.AufmassApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;

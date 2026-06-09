@@ -1,0 +1,27 @@
+[
+  {
+    "category": "maler",
+    "items": [
+      { "name": "Wände streichen (1×)",   "pricePerM2": 8.00,  "surfaceType": "wall",    "isPerLinearMeter": false },
+      { "name": "Wände streichen (2×)",   "pricePerM2": 14.00, "surfaceType": "wall",    "isPerLinearMeter": false },
+      { "name": "Tapete entfernen",        "pricePerM2": 6.00,  "surfaceType": "wall",    "isPerLinearMeter": false },
+      { "name": "Tapete neu kleben",       "pricePerM2": 18.00, "surfaceType": "wall",    "isPerLinearMeter": false },
+      { "name": "Decke streichen (1×)",   "pricePerM2": 10.00, "surfaceType": "ceiling", "isPerLinearMeter": false },
+      { "name": "Decke streichen (2×)",   "pricePerM2": 16.00, "surfaceType": "ceiling", "isPerLinearMeter": false },
+      { "name": "Grundierung auftragen",   "pricePerM2": 4.00,  "surfaceType": "wall",    "isPerLinearMeter": false },
+      { "name": "Sockelleisten streichen", "pricePerM2": 3.50,  "surfaceType": "wall",    "isPerLinearMeter": true  }
+    ]
+  },
+  {
+    "category": "fliesen",
+    "items": [
+      { "name": "Bodenfliesen legen (Standard)", "pricePerM2": 35.00, "surfaceType": "floor", "isPerLinearMeter": false },
+      { "name": "Wandfliesen legen (Standard)",  "pricePerM2": 42.00, "surfaceType": "wall",  "isPerLinearMeter": false },
+      { "name": "Bodenfliesen legen (Premium)",  "pricePerM2": 55.00, "surfaceType": "floor", "isPerLinearMeter": false },
+      { "name": "Wandfliesen legen (Premium)",   "pricePerM2": 65.00, "surfaceType": "wall",  "isPerLinearMeter": false },
+      { "name": "Fugen verfüllen",               "pricePerM2": 8.00,  "surfaceType": "floor", "isPerLinearMeter": false },
+      { "name": "Fliesenkleber inkl. Auftragen", "pricePerM2": 12.00, "surfaceType": "floor", "isPerLinearMeter": false },
+      { "name": "Altfliesen entfernen",          "pricePerM2": 15.00, "surfaceType": "floor", "isPerLinearMeter": false }
+    ]
+  }
+]
