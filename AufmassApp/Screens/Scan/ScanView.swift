@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 import RoomPlan
 import ARKit
 
@@ -26,8 +27,12 @@ final class ScanCoordinator: NSObject, ObservableObject {
 
     // MARK: Private Eigenschaften
 
-    /// Scan-Session – wird an RoomCaptureView übergeben
-    private(set) var captureSession: RoomCaptureSession
+    /// RoomCaptureView wird im init erstellt – sie besitzt die Session intern.
+    /// Der Representable gibt diese View direkt zurück, statt eine neue zu erstellen.
+    let roomCaptureView: RoomCaptureView
+
+    /// Shortcut auf die View-eigene Session (read-only in RoomPlan API)
+    private var captureSession: RoomCaptureSession { roomCaptureView.captureSession }
 
     /// Konvertiert CapturedRoomData → CapturedRoom (async)
     /// nonisolated(unsafe): Zugriff aus nonisolated Delegate-Callbacks,
@@ -40,8 +45,8 @@ final class ScanCoordinator: NSObject, ObservableObject {
     // MARK: Initialisierung
 
     override init() {
-        captureSession = RoomCaptureSession()
-        roomBuilder    = RoomBuilder(options: [.beautifyObjects])
+        roomCaptureView = RoomCaptureView(frame: .zero)
+        roomBuilder     = RoomBuilder(options: [.beautifyObjects])
         super.init()
     }
 
@@ -166,8 +171,7 @@ struct RoomCaptureViewRepresentable: UIViewRepresentable {
     let coordinator: ScanCoordinator
 
     func makeUIView(context: Context) -> RoomCaptureView {
-        // Session des Coordinators an die View übergeben – Coaching-UI ist automatisch aktiv
-        RoomCaptureView(frame: .zero, captureSession: coordinator.captureSession)
+        coordinator.roomCaptureView
     }
 
     func updateUIView(_ uiView: RoomCaptureView, context: Context) {}
